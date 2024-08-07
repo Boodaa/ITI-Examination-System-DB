@@ -1,23 +1,15 @@
-# Retail-Analysis
-# Applied Steps
-  - Creating ERD and Mapping after analyzing the Project's requirements 
-  - Creating relational Examination system Database and its tables Using SQL Server 
-  - Provide restrictions in creating DB for data integrity for any improper insertion doing rollback 
-  - Creating Stored Procedures to dynamic the system for below
-      1- Create Exams and Questions 
-      2- Store student results in each exam after calculate it and audit his answers 
-      3- Help instructor to create their own exams randomly or manually
-      4- Help instructor to select student who will do the exam 
-  - Creating Triggers to
-      1- Audit the degree of the exam
-      2- Ensure when a question erased so it will be deleted from all exams
-  - Creating Views for any Display required 
-  - Creating Indexes to optimize and perform the DB and the Quires  
-  - Grant permissions for Training Manager and the Instructor	
+Introduction :
+    This project aims to create a customizable Database exam system using telecommunications and IT, 
+    facilitating tailored exams for diverse study tracks, seamless student interaction, 
+    and instant performance reporting through a secure SQL database.
 
-# ERD
-  - ![Capture6](https://github.com/Boodaa/Retail-Analysis/assets/121688823/01dd3679-c760-4c71-854e-acab0e32fd1f)
-# Measures
-  -![Capture5](https://github.com/Boodaa/Retail-Analysis/assets/121688823/7a57f8c4-6769-4bdf-8e0c-2be520e0c603) - ![Capture4](https://github.com/Boodaa/Retail-Analysis/assets/121688823/955498ea-9906-4459-94ea-008b23e2af6f) 
-# Dashboard Picture
-  -![Capture3](https://github.com/Boodaa/Retail-Analysis/assets/121688823/a625c247-947d-4b12-9471-47e8ab49bd83) - ![Capture2](https://github.com/Boodaa/Retail-Analysis/assets/121688823/e3f53efe-f87f-464f-ab6f-ad18785054f8) - ![Capture](https://github.com/Boodaa/Retail-Analysis/assets/121688823/7480b8bc-68e5-4ba9-ad21-376e13464b44)
+Problem Definition :
+    Question Selection: appropriate question selection for each exam. 
+        1. Student Answers Storage: Implementing databases capable of efficiently storing and managing student answers 
+        2. Exam Evaluation: Creating systems for accurately assessing and grading exams. 
+        3. Grade Assignment: assigning grades based on exam performance,
+
+Main Aims :
+    1 - facilitate Question Generation: Develop a system that streamlines the process of generating questions 
+    2 - Adjust Question Weight: the weight of the question is assigned according to the question difficulty 
+    3 - Flexible Question Usage: Allow questions to be reused multiple times while ensuring that not all questions are included in every exam
